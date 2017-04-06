@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <title>Team</title>
     <style>
+
+        li {
+            display: inline;
+            /*position: relative;*/
+            /*right: 20px;*/
+            float: right;
+            margin-right: 30px;
+            color: grey;
+        }
+        li > a {
+            text-decoration: none;
+            color: grey;
+        }
+
+
+
+
         #headertexttop {
             font-size: 50px;
             text-align: center;
@@ -13,10 +30,28 @@
             text-align: center;
         }
 
-        .img-circle {
-            border-radius: 50%;
+
+        .ul {
+            background-color: white;
+            border: 1px solid white;
+            height: 3em;
+            line-height: 3em;
+            padding-right: 22%;
+            margin-top: 2em;
         }
 
+        #logobadge {
+            height: 100px;
+            width: 100px;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 50%; /* may require vendor prefixes */
+            background: grey;
+            position: relative;
+            right: 60%;
+            bottom: 60%;
+        }
 
         #badge1c {
               height: 100px;
@@ -27,7 +62,7 @@
               border-radius: 50%; /* may require vendor prefixes */
               background: red;
             position: relative;
-            left: 25%;
+            left: 110%;
           }
         #badge2c {
             height: 100px;
@@ -38,7 +73,7 @@
             border-radius: 50%; /* may require vendor prefixes */
             background: yellow;
             position: relative;
-            left: 40%;
+            left: 122%;
 
         }
 
@@ -51,7 +86,7 @@
               border-radius: 50%; /* may require vendor prefixes */
               background: green;
             position: relative;
-            left: 55%;
+            left: 134%;
           }
 
         #badge4c {
@@ -63,11 +98,30 @@
                 border-radius: 50%; /* may require vendor prefixes */
                 background: blue;
             position: relative;
-            left: 70%;
+            left: 146%;
             }
+        #line {
+            color: dimgrey;
+            height: 5px;
+            background-color: grey;
+            width: 700px;
+        }
     </style>
 </head>
-<body>
+<body style="background-color:lightgrey";>
+
+<ul class="ul">
+    <li id="logobadge"></li>
+    <li><a href="#services">SERVICES</a></li>
+    <li><a href="work">WORK</a></li>
+    <li><a href="blog">BLOG</a></li>
+    <li><a href="quote">QUOTE</a></li>
+</ul>
+
+<br>
+<br>
+<br>
+
     <header>
         <h1 id="headertexttop">VISUAL DESIGN & WEB DEVELOPMENT</h1>
 
@@ -77,8 +131,18 @@
         <div id="badge1c">Design</div>
         <div id="badge2c">Develop</div>
         <div id="badge3c">Support</div>
-        <div id="badge4c">Design</div>
+        <div id="badge4c">Host</div>
 
+    <br>
+    <br>
+<hr id="line">
+
+<br><br><br>
+
+<ul>
+    <li></li>
+
+</ul>
 
 
 
